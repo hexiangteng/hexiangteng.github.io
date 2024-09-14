@@ -54,6 +54,15 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+function toggleList() {
+  var list = document.getElementById("myList");
+  if (list.style.display === "none") {
+    list.style.display = "block";
+  } else {
+    list.style.display = "none";
+  }
+}
 </script>
 
 
@@ -256,8 +265,10 @@ var _hmt = _hmt || [];
          <li>
           2023-01-03: One paper is accepted by ACM TOMM. Congrats to Duoduo Feng!
         </li> 
-        
-        <li>
+
+        <button onclick="toggleList()">显示/隐藏列表</button>
+        <ul id="myList">
+           <li>
           2022-11-29: Invited to serve as Area Chair in ICME 2023.
         </li>       
         
@@ -304,6 +315,9 @@ var _hmt = _hmt || [];
         <li>
           2020-12-03: I give a talk "Use What You Have: Multi-modal Information in Fine-grained Analysis" at <a href="https://sites.google.com/view/webfg2020/home"> WebFG Workshop in ACCV 2020 </a>.
         </li>
+        </ul>
+        
+       
 
       </div>
     </div>
