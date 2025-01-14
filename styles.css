@@ -42,9 +42,8 @@ body {
   padding-top: 0;
   counter-reset: captions;
   overflow-wrap: break-word; /* 允许在边界内换行长单词 */
-    word-wrap: break-word; /* 非标准属性，作用同上 */
-    overflow: hidden; /* 隐藏溢出内容 */
-    word-break: break-all; /* 允许在任意字符间断开单词 */
+  word-wrap: break-word; /* 非标准属性，作用同上 */
+  word-break: break-all; /* 允许在任意字符间断开单词 */
 }
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
