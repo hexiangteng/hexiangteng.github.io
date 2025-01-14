@@ -41,8 +41,6 @@ body {
   margin-top: 71px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
-  overflow-wrap: break-word; /* 允许在边界内换行长单词 */
-  word-wrap: break-word; /* 非标准属性，作用同上 */
 }
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
