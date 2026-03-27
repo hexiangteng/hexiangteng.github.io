@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datasets | Xiangteng He</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Xiangteng He</a>
+      <nav aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="datasets.html">Datasets</a></li>
+          <li><a href="awards.html">Awards</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <section class="page-header-block">
+        <h1>Datasets</h1>
+        <p class="page-intro">This page collects public datasets and benchmarks associated with my publications. I include resources with public project pages, repositories, or dataset releases, and group them by research use case for easier browsing.</p>
+      </section>
+
+      <section class="dataset-group">
+        <h2>Generation And Design</h2>
+
+        <article class="dataset-card">
+          <a class="dataset-visual dataset-thumb" href="https://ali-vilab.github.io/ICE-Bench-Page/">
+            <img src="assets/ice-bench-teaser.png" alt="ICE-Bench benchmark overview">
+          </a>
+          <div class="dataset-content">
+          <div class="dataset-card-head">
+            <h3>ICE-Bench</h3>
+            <p class="dataset-year">ICCV 2025</p>
+          </div>
+          <p>A unified benchmark for image creating and editing. It organizes image generation into four coarse task families, further breaks them into 31 fine-grained tasks, and evaluates outputs across six dimensions including quality, prompt following, consistency, and controllability.</p>
+          <p class="dataset-meta"><strong>Use case:</strong> Image generation and image editing evaluation</p>
+          <p class="dataset-meta"><strong>Access:</strong> Public Hugging Face release with project page and evaluation assets</p>
+          <p class="dataset-links">
+            <a href="https://ali-vilab.github.io/ICE-Bench-Page/">Project</a>
+            <a href="https://huggingface.co/datasets/ali-vilab/ICE-Bench">Dataset</a>
+            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Pan_ICE-Bench_A_Unified_and_Comprehensive_Benchmark_for_Image_Creating_and_ICCV_2025_paper.pdf">Paper</a>
+          </p>
+          </div>
+        </article>
+
+        <article class="dataset-card">
+          <a class="dataset-visual dataset-thumb" href="http://39.108.48.32/mipl/PosterLayout/">
+            <img src="papers/CVPR 2023.png" alt="PosterLayout paper figure">
+          </a>
+          <div class="dataset-content">
+          <div class="dataset-card-head">
+            <h3>PKU PosterLayout</h3>
+            <p class="dataset-year">CVPR 2023</p>
+          </div>
+          <p>A benchmark for content-aware visual-textual presentation layout on non-empty canvases. The dataset contains 9,974 poster-layout pairs and 905 image canvases, making it useful for layout generation under realistic graphic design constraints.</p>
+          <p class="dataset-meta"><strong>Use case:</strong> Automatic poster and presentation layout generation</p>
+          <p class="dataset-meta"><strong>Access:</strong> Available through the project page; download requires a signed release agreement</p>
+          <p class="dataset-links">
+            <a href="http://39.108.48.32/mipl/PosterLayout/">Project</a>
+            <a href="https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023">Code</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Hsu_PosterLayout_A_New_Benchmark_and_Approach_for_Content-Aware_Visual-Textual_Presentation_CVPR_2023_paper.pdf">Paper</a>
+          </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="dataset-group">
+        <h2>Cross-Modal Retrieval</h2>
+
+        <article class="dataset-card">
+          <a class="dataset-visual dataset-thumb" href="https://github.com/ChenAnno/Real20M_ACMMM2023">
+            <img src="assets/real20m-dataset.png" alt="Real20M dataset overview">
+          </a>
+          <div class="dataset-content">
+          <div class="dataset-card-head">
+            <h3>PKU Real20M</h3>
+            <p class="dataset-year">ACM MM 2023</p>
+          </div>
+          <p>A large-scale e-commerce dataset for cross-domain retrieval between products and micro-videos. The paper describes a query-driven collection pipeline covering over 20 million e-commerce products and micro-videos with multimodal information.</p>
+          <p class="dataset-meta"><strong>Use case:</strong> Product-to-video and video-to-product retrieval</p>
+          <p class="dataset-meta"><strong>Access:</strong> Referenced from the associated project page and code release</p>
+          <p class="dataset-links">
+            <a href="https://github.com/ChenAnno/Real20M_ACMMM2023">Code</a>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612408">Paper</a>
+          </p>
+          </div>
+        </article>
+
+        <article class="dataset-card">
+          <a class="dataset-visual dataset-thumb" href="http://39.108.48.32/mipl/FGCrossNet/">
+            <img src="papers/ACM MM 2019.png" alt="FG-XMedia paper figure">
+          </a>
+          <div class="dataset-content">
+          <div class="dataset-card-head">
+            <h3>PKU FG-XMedia</h3>
+            <p class="dataset-year">ACM MM 2019</p>
+          </div>
+          <p>A fine-grained cross-media retrieval benchmark with 200 bird subcategories across four media types: image, text, video, and audio. It was introduced together with FGCrossNet for unified representation learning across all four modalities.</p>
+          <p class="dataset-meta"><strong>Use case:</strong> Fine-grained cross-media retrieval</p>
+          <p class="dataset-meta"><strong>Access:</strong> Public project page and code repository</p>
+          <p class="dataset-links">
+            <a href="http://39.108.48.32/mipl/FGCrossNet/">Project</a>
+            <a href="https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019">Code</a>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3343031.3350974">Paper</a>
+          </p>
+          </div>
+        </article>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>
