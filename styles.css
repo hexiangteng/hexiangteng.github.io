@@ -320,6 +320,31 @@ p {
   margin-bottom: 18px;
 }
 
+.research-summary {
+  margin-bottom: 18px;
+  font-size: 1.14rem;
+}
+
+.research-list {
+  margin: 0;
+  padding-left: 28px;
+}
+
+.research-list li {
+  margin-bottom: 12px;
+  color: var(--muted);
+  font-size: 1.14rem;
+}
+
+.research-list strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.research-links {
+  white-space: normal;
+}
+
 .news-list,
 .simple-list,
 .paper-list {
