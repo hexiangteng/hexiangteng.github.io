@@ -345,6 +345,29 @@ p {
   white-space: normal;
 }
 
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.research-tags a {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+  color: #005fcb;
+  text-decoration: none;
+  line-height: 1.2;
+  background: #fff;
+}
+
+.research-tags a:hover,
+.research-tags a:focus {
+  text-decoration: underline;
+}
+
 .news-list,
 .simple-list,
 .paper-list {
