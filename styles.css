@@ -346,28 +346,23 @@ p {
 }
 
 .research-tags {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 0;
-  margin-left: 8px;
-  vertical-align: middle;
+  display: inline;
+  margin-left: 6px;
+  vertical-align: baseline;
 }
 
 .research-tags a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 34px;
-  border: 2px solid #d9e0e8;
-  padding: 5px 14px;
+  display: inline-block;
+  border: 1px solid #d9e0e8;
+  padding: 2px 8px;
   color: #005fcb;
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.25;
   background: #fff;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9) inset;
+  vertical-align: baseline;
+  margin: 0 4px 0 0;
 }
 
 .research-tags a:hover,
