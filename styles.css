@@ -355,16 +355,22 @@ p {
 .research-tags a {
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--line);
-  padding: 5px 12px;
+  justify-content: center;
+  min-height: 42px;
+  border: 2px solid #d9e0e8;
+  padding: 8px 20px;
   color: #005fcb;
   text-decoration: none;
-  line-height: 1.2;
+  font-size: 0.98rem;
+  font-weight: 500;
+  line-height: 1;
   background: #fff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9) inset;
 }
 
 .research-tags a:hover,
 .research-tags a:focus {
+  border-color: #bfc9d6;
   text-decoration: underline;
 }
 
