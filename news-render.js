@@ -45,12 +45,11 @@
   }
 
   function getRecentNews(items) {
-    var now = new Date();
-    var cutoff = new Date(now);
-    cutoff.setFullYear(cutoff.getFullYear() - 2);
+    var currentYear = new Date().getFullYear();
+    var cutoffYear = currentYear - 1;
 
     return items.filter(function (item) {
-      return parseNewsDate(item.date) >= cutoff;
+      return Number(item.date.slice(0, 4)) >= cutoffYear;
     });
   }
 
