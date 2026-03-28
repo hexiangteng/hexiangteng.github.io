@@ -16,6 +16,34 @@
     }).join("");
   }
 
+  function renderNewsByYear(container, items) {
+    if (!container) return;
+
+    if (!items.length) {
+      container.innerHTML = "<p>No news items available.</p>";
+      return;
+    }
+
+    var groups = items.reduce(function (acc, item) {
+      var year = item.date.slice(0, 4);
+      if (!acc[year]) acc[year] = [];
+      acc[year].push(item);
+      return acc;
+    }, {});
+
+    var years = Object.keys(groups).sort(function (a, b) {
+      return Number(b) - Number(a);
+    });
+
+    container.innerHTML = years.map(function (year) {
+      var list = groups[year].map(function (item) {
+        return '<li><span class="news-date">' + item.date + ':</span> ' + item.html + "</li>";
+      }).join("");
+
+      return '<section class="card paper-year"><h2>' + year + '</h2><ul class="news-list">' + list + "</ul></section>";
+    }).join("");
+  }
+
   function getRecentNews(items) {
     var now = new Date();
     var cutoff = new Date(now);
@@ -35,9 +63,14 @@
 
     var fullNews = document.querySelector("[data-news-list='full']");
     var recentNews = document.querySelector("[data-news-list='recent']");
+    var groupedNews = document.querySelector("[data-news-list='grouped']");
 
     if (fullNews) {
       renderNewsList(fullNews, items);
+    }
+
+    if (groupedNews) {
+      renderNewsByYear(groupedNews, items);
     }
 
     if (recentNews) {
