@@ -318,6 +318,7 @@ p {
 
 .section-title {
   margin-bottom: 18px;
+  color: #6670de;
 }
 
 .research-summary {
@@ -483,6 +484,7 @@ p {
 
 .notice h2 {
   margin-bottom: 10px;
+  color: #6670de;
 }
 
 .notice p:last-child {
