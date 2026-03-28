@@ -320,6 +320,20 @@ p {
   margin-bottom: 18px;
 }
 
+.section-title,
+.notice h2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.section-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  color: #6f8191;
+}
+
 .research-summary {
   margin-bottom: 18px;
   font-size: 1.14rem;
