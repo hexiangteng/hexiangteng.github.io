@@ -9,6 +9,12 @@
   --page: #ffffff;
 }
 
+.home-page {
+  --coast-deep: #5A87B8;
+  --coast-mid: #8AB0D8;
+  --coast-soft: #BBD0E8;
+}
+
 *,
 *::before,
 *::after {
@@ -50,6 +56,11 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.home-page .site-header {
+  border-bottom-color: #d5e1ed;
+  background: linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+}
+
 .nav-wrap,
 .container {
   width: min(1080px, calc(100% - 56px));
@@ -71,6 +82,10 @@ img {
   color: var(--ink);
 }
 
+.home-page .brand {
+  color: #36577d;
+}
+
 .nav-links {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +98,15 @@ img {
 .nav-links a {
   color: var(--muted);
   font-size: 0.97rem;
+}
+
+.home-page .nav-links a {
+  color: #4d729a;
+}
+
+.home-page .nav-links a:hover,
+.home-page .nav-links a:focus {
+  color: #5A87B8;
 }
 
 .page {
@@ -268,6 +292,11 @@ p {
   background: #fafbfd;
 }
 
+.home-page .portrait {
+  border-color: #d6e3f0;
+  background: #f7fbff;
+}
+
 .portrait img {
   width: 100%;
 }
@@ -296,6 +325,10 @@ p {
   border-top: 1px solid var(--line);
 }
 
+.home-page .icon-row {
+  border-top-color: #dbe6f1;
+}
+
 .icon-link,
 .icon-placeholder {
   display: inline-flex;
@@ -306,14 +339,28 @@ p {
   color: #3f7fb6;
 }
 
+.home-page .icon-link,
+.home-page .icon-placeholder {
+  color: #5A87B8;
+}
+
 .icon-link:hover,
 .icon-link:focus {
   color: #2f6ea3;
 }
 
+.home-page .icon-link:hover,
+.home-page .icon-link:focus {
+  color: #476e98;
+}
+
 .icon-placeholder {
   color: #3f7fb6;
   opacity: 0.95;
+}
+
+.home-page .icon-placeholder {
+  color: #5A87B8;
 }
 
 .section-title {
@@ -332,6 +379,10 @@ p {
   height: 16px;
   flex: 0 0 auto;
   color: #6f8191;
+}
+
+.home-page .section-icon {
+  color: #8AB0D8;
 }
 
 .research-summary {
@@ -379,10 +430,22 @@ p {
   margin: 0 3px 0 0;
 }
 
+.home-page .research-tags a {
+  border-color: #bfd3e8;
+  color: #4d729a;
+  background: #f8fbff;
+}
+
 .research-tags a:hover,
 .research-tags a:focus {
   border-color: #bfc9d6;
   text-decoration: underline;
+}
+
+.home-page .research-tags a:hover,
+.home-page .research-tags a:focus {
+  border-color: #8AB0D8;
+  color: #36577d;
 }
 
 .news-list,
@@ -396,6 +459,16 @@ p {
 .simple-list li {
   margin-bottom: 10px;
   color: var(--muted);
+}
+
+.home-page .news-list li {
+  border-bottom: 1px solid #edf3f9;
+  padding-bottom: 10px;
+}
+
+.home-page .news-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .news-date {
@@ -483,6 +556,11 @@ p {
   padding: 18px 22px;
   border: 1px solid var(--line-soft);
   background: #fff;
+}
+
+.home-page .module-panel {
+  border-color: #d9e5f1;
+  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
 }
 
 .module-panel .section-title {
