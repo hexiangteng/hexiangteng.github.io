@@ -465,6 +465,16 @@ p {
   border-top: 1px solid var(--line-soft);
 }
 
+.module-panel {
+  padding: 18px 22px;
+  border: 1px solid var(--line-soft);
+  background: #fff;
+}
+
+.module-panel .section-title {
+  margin-bottom: 14px;
+}
+
 .notice {
   padding: 18px 22px;
   border-left: 4px solid #b45309;
