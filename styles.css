@@ -13,6 +13,7 @@
   --coast-deep: #5A87B8;
   --coast-mid: #8AB0D8;
   --coast-soft: #BBD0E8;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fbfe 18%, #f1f6fb 55%, #e2ebf5 100%);
 }
 
 *,
