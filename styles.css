@@ -528,6 +528,9 @@ p {
 
 .dataset-group {
   margin-bottom: 42px;
+  padding: 18px 22px 20px;
+  border: 1px solid var(--line-soft);
+  background: #fff;
 }
 
 .dataset-group h2 {
