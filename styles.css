@@ -553,6 +553,20 @@ p {
   color: #36577d;
 }
 
+.coastal-page .awards-highlight-card {
+  border-color: #c9daec;
+  background: linear-gradient(180deg, #fbfdff 0%, #f4f8fc 100%);
+}
+
+.coastal-page .awards-highlight-card h2,
+.coastal-page .card h2 {
+  color: #36577d;
+}
+
+.awards-highlight-list li {
+  margin-bottom: 12px;
+}
+
 .paper-topics {
   display: flex;
   flex-wrap: wrap;
