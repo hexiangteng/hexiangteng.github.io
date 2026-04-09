@@ -24,10 +24,6 @@ window.siteNews = [
     html: 'Co-organizing the <a href="https://sites.google.com/view/fgvc13/home">FGVC13 workshop</a> at CVPR 2026.'
   },
   {
-    date: "2025-10-22",
-    html: 'Poster paper at ICCV 2025: <a href="https://ali-vilab.github.io/ICE-Bench-Page/">ICE-Bench: A Unified and Comprehensive Benchmark for Image Creating and Editing</a>.'
-  },
-  {
     date: "2025-07-28",
     html: "Very honored to serve as SPC in AAAI 2026."
   },
