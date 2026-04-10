@@ -5,11 +5,11 @@ window.siteNews = [
   },
   {
     date: "2026-02-20",
-    html: 'Two papers are accepted by CVPR 2026. Congrats to <a href="https://scholar.google.com/citations?user=mSDQkjMAAAAJ&amp;hl=en&amp;oi=sra">Shunsuke Sakai</a> and <a href="https://flaick.github.io/">Kun Yuan</a>.'
+    html: 'Papers on <a href="https://arxiv.org/abs/2504.05662">anomaly detection with diffusion models</a> (<a href="https://invad-project.com/">project</a> / <a href="https://github.com/SkyShunsuke/InversionAD">code</a>) and <a href="https://arxiv.org/abs/2512.02566">biomedical scientific literature pretraining</a> accepted by CVPR 2026. Congrats to <a href="https://scholar.google.com/citations?user=mSDQkjMAAAAJ&amp;hl=en&amp;oi=sra">Shunsuke Sakai</a> and <a href="https://flaick.github.io/">Kun Yuan</a>.'
   },
   {
     date: "2026-01-26",
-    html: 'One paper is accepted by ICLR 2026. Congrats to <a href="https://sites.google.com/view/jiayunluo/jiayun-luo-letitia">Jiayun Luo</a> and <a href="https://sites.google.com/view/wancyuanfan">Wan-Cyuan Fan</a>.'
+    html: 'Paper on <a href="https://arxiv.org/abs/2510.08510">visual sink in large vision-language models</a>. Congrats to <a href="https://sites.google.com/view/jiayunluo/jiayun-luo-letitia">Jiayun Luo</a> and <a href="https://sites.google.com/view/wancyuanfan">Wan-Cyuan Fan</a>.'
   },
   {
     date: "2026-01-14",
@@ -29,7 +29,7 @@ window.siteNews = [
   },
   {
     date: "2025-06-25",
-    html: "One paper is accepted by ICCV 2025. Congrats to Yulin Pan."
+    html: 'Paper on <a href="https://ali-vilab.github.io/ICE-Bench-Page/">image creating and editing benchmark</a> (<a href="https://huggingface.co/datasets/ali-vilab/ICE-Bench">dataset</a> / <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Pan_ICE-Bench_A_Unified_and_Comprehensive_Benchmark_for_Image_Creating_and_ICCV_2025_paper.pdf">pdf</a>) accepted by ICCV 2025. Congrats to Yulin Pan.'
   },
   {
     date: "2025-05-03",
