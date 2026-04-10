@@ -9,7 +9,7 @@ window.siteNews = [
   },
   {
     date: "2026-01-26",
-    html: 'Paper on visual sink in large vision-language models (<a href="https://arxiv.org/abs/2510.08510">pdf</a>). Congrats to <a href="https://sites.google.com/view/jiayunluo/jiayun-luo-letitia">Jiayun Luo</a> and <a href="https://sites.google.com/view/wancyuanfan">Wan-Cyuan Fan</a>.'
+    html: 'Paper on visual sink in large vision-language models (<a href="https://arxiv.org/abs/2510.08510">pdf</a>) accepted by ICLR 2026. Congrats to <a href="https://sites.google.com/view/jiayunluo/jiayun-luo-letitia">Jiayun Luo</a> and <a href="https://sites.google.com/view/wancyuanfan">Wan-Cyuan Fan</a>.'
   },
   {
     date: "2026-01-14",
