@@ -13,7 +13,7 @@
 }
 
 .coastal-page {
-  background: linear-gradient(180deg, #ffffff 0%, #f9fbfe 18%, #f1f6fb 55%, #e2ebf5 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fdfefe 18%, #f8fbff 58%, #eef4fb 100%);
 }
 
 *,
@@ -58,8 +58,8 @@ img {
 }
 
 .coastal-page .site-header {
-  border-bottom-color: #d5e1ed;
-  background: linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+  border-bottom-color: #e0e8f2;
+  background: linear-gradient(180deg, #ffffff 0%, #fdfefe 100%);
 }
 
 .nav-wrap,
@@ -84,7 +84,7 @@ img {
 }
 
 .coastal-page .brand {
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .nav-links {
@@ -102,21 +102,21 @@ img {
 }
 
 .coastal-page .nav-links a {
-  color: #4d729a;
+  color: #6a8fbf;
 }
 
 .coastal-page .nav-links a:hover,
 .coastal-page .nav-links a:focus {
-  color: #5A87B8;
+  color: #4c74a8;
 }
 
 .coastal-page a {
-  color: #4d729a;
+  color: #6a8fbf;
 }
 
 .coastal-page a:hover,
 .coastal-page a:focus {
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .page {
@@ -125,11 +125,11 @@ img {
 
 .coastal-page .page-header-block {
   padding-bottom: 14px;
-  border-bottom: 1px solid #d9e5f1;
+  border-bottom: 1px solid #e3ebf4;
 }
 
 .coastal-page .page-header-block h1 {
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .page-header-block {
@@ -142,8 +142,8 @@ img {
 
 .coastal-page .filter-block {
   padding: 16px 18px;
-  border: 1px solid #d9e5f1;
-  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
+  border: 1px solid #e2ebf4;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
 }
 
 .filter-row {
@@ -206,7 +206,7 @@ img {
 .coastal-page .year-filter:hover,
 .coastal-page .year-filter:focus {
   border-color: #8AB0D8;
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .topic-all {
@@ -328,8 +328,8 @@ p {
 }
 
 .home-page .portrait {
-  border-color: #d6e3f0;
-  background: #f7fbff;
+  border-color: #e1eaf4;
+  background: #fbfdff;
 }
 
 .portrait img {
@@ -361,7 +361,7 @@ p {
 }
 
 .home-page .icon-row {
-  border-top-color: #dbe6f1;
+  border-top-color: #e4ecf5;
 }
 
 .icon-link,
@@ -376,7 +376,7 @@ p {
 
 .home-page .icon-link,
 .home-page .icon-placeholder {
-  color: #5A87B8;
+  color: #6a8fbf;
 }
 
 .icon-link:hover,
@@ -386,7 +386,7 @@ p {
 
 .home-page .icon-link:hover,
 .home-page .icon-link:focus {
-  color: #476e98;
+  color: #4c74a8;
 }
 
 .icon-placeholder {
@@ -395,7 +395,7 @@ p {
 }
 
 .home-page .icon-placeholder {
-  color: #5A87B8;
+  color: #6a8fbf;
 }
 
 .section-title {
@@ -417,7 +417,7 @@ p {
 }
 
 .home-page .section-icon {
-  color: #8AB0D8;
+  color: #a8c4e3;
 }
 
 .research-summary {
@@ -466,9 +466,9 @@ p {
 }
 
 .home-page .research-tags a {
-  border-color: #bfd3e8;
-  color: #4d729a;
-  background: #f8fbff;
+  border-color: #d4e0ee;
+  color: #6a8fbf;
+  background: #ffffff;
 }
 
 .research-tags a:hover,
@@ -480,7 +480,7 @@ p {
 .home-page .research-tags a:hover,
 .home-page .research-tags a:focus {
   border-color: #8AB0D8;
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .news-list,
@@ -497,7 +497,7 @@ p {
 }
 
 .coastal-page .news-list li {
-  border-bottom: 1px solid #edf3f9;
+  border-bottom: 1px solid #f1f5fa;
   padding-bottom: 10px;
 }
 
@@ -520,8 +520,8 @@ p {
 .coastal-page .paper-year {
   margin-top: 22px;
   padding: 18px 22px 20px;
-  border: 1px solid #d9e5f1;
-  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
+  border: 1px solid #e2ebf4;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
 }
 
 .paper-year:first-of-type {
@@ -532,7 +532,7 @@ p {
 
 .coastal-page .paper-year:first-of-type {
   padding-top: 18px;
-  border-top: 1px solid #d9e5f1;
+  border-top: 1px solid #e2ebf4;
 }
 
 .paper-list li {
@@ -550,17 +550,17 @@ p {
 
 .coastal-page .paper-year h2,
 .coastal-page .dataset-group h2 {
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .coastal-page .awards-highlight-card {
-  border-color: #c9daec;
-  background: linear-gradient(180deg, #fbfdff 0%, #f4f8fc 100%);
+  border-color: #d8e4f0;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
 }
 
 .coastal-page .awards-highlight-card h2,
 .coastal-page .card h2 {
-  color: #36577d;
+  color: #4c74a8;
 }
 
 .awards-highlight-list li {
@@ -598,8 +598,8 @@ p {
 
 .coastal-page .card:not(.plain-section):not(.paper-year) {
   padding: 18px 22px 20px;
-  border: 1px solid #d9e5f1;
-  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
+  border: 1px solid #e2ebf4;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
 }
 
 .news-more {
@@ -631,8 +631,8 @@ p {
 }
 
 .home-page .module-panel {
-  border-color: #d9e5f1;
-  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
+  border-color: #e2ebf4;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
 }
 
 .module-panel .section-title {
@@ -698,8 +698,8 @@ p {
 }
 
 .coastal-page .dataset-group {
-  border-color: #d9e5f1;
-  background: linear-gradient(180deg, #fcfdff 0%, #f9fbfe 100%);
+  border-color: #e2ebf4;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
 }
 
 .dataset-group h2 {
@@ -716,7 +716,7 @@ p {
 }
 
 .coastal-page .dataset-card {
-  border-top-color: #e5eef7;
+  border-top-color: #edf3f8;
 }
 
 .dataset-group .dataset-card:first-of-type {
@@ -752,8 +752,8 @@ p {
 }
 
 .coastal-page .dataset-thumb {
-  border-color: #d5e1ed;
-  background: #f8fbff;
+  border-color: #e1eaf4;
+  background: #fbfdff;
 }
 
 .dataset-thumb img {
@@ -778,7 +778,7 @@ p {
 }
 
 .coastal-page .dataset-year {
-  color: #6f8faf;
+  color: #86a6c8;
 }
 
 .dataset-meta {
