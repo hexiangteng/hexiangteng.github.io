@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-04-13",
+    html: "Our ECCV 2026 workshop proposal “Medical Foundation Models and Benchmarks” has been accepted."
+  },
+  {
     date: "2026-03-02",
     html: 'Honored to be awarded the <a href="https://vectorinstitute.ai/">Vector Research Grant</a>.'
   },
