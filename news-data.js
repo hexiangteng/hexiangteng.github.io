@@ -1,7 +1,7 @@
 window.siteNews = [
   {
     date: "2026-04-13",
-    html: "Our inaugural ECCV 2026 workshop proposal “Medical Foundation Models and Benchmarks” has been accepted."
+    html: 'Our inaugural ECCV 2026 workshop proposal <a href="https://medfmb.github.io/">Medical Foundation Models and Benchmark</a> has been accepted.'
   },
   {
     date: "2026-03-02",
