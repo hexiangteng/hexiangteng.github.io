@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-05-15",
+    html: 'Honored to receive the Silver Tier Reviewer Distinction in the IJCAI-ECAI 2026 for my service as an SPC member.'
+  },
+  {
     date: "2026-04-13",
     html: 'Our inaugural ECCV 2026 workshop proposal <a href="https://medfmb.github.io/">Medical Foundation Models and Benchmark</a> has been accepted.'
   },
