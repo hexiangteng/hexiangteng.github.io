@@ -684,10 +684,83 @@ p {
   border: 1px solid #ead8b8;
   background: #fff;
   padding: 6px;
+  cursor: zoom-in;
+  appearance: none;
+  width: 100%;
+  text-align: inherit;
 }
 
 .notice-cfp .notice-poster img {
   width: 100%;
+}
+
+.notice-cfp .notice-poster:hover,
+.notice-cfp .notice-poster:focus-visible {
+  border-color: #d9c298;
+  box-shadow: 0 8px 24px rgba(40, 58, 86, 0.12);
+}
+
+.lightbox-open {
+  overflow: hidden;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(10, 18, 30, 0.74);
+  cursor: zoom-out;
+}
+
+.lightbox-panel {
+  position: relative;
+  z-index: 1;
+  width: min(92vw, 900px);
+  max-height: 90vh;
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(7, 18, 38, 0.28);
+}
+
+.lightbox-image {
+  width: 100%;
+  max-height: calc(90vh - 28px);
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(16, 28, 48, 0.78);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus-visible {
+  background: rgba(16, 28, 48, 0.92);
 }
 
 .dataset-group {

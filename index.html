@@ -70,9 +70,16 @@
           </p>
       
         </div>
-        <a class="notice-poster" href="https://medfmb.github.io/" aria-label="ECCVMed poster">
+        <button
+          class="notice-poster"
+          type="button"
+          aria-label="Enlarge ECCVMed poster"
+          data-lightbox-trigger
+          data-lightbox-src="/papers/ECCV 2026-Med.png"
+          data-lightbox-alt="ECCVMed poster"
+        >
           <img src="/papers/ECCV 2026-Med.png" alt="ECCVMed">
-        </a>
+        </button>
       </section>
 
       <!--
@@ -136,5 +143,54 @@
       </section>
     </div>
   </main>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="lightbox-backdrop" type="button" aria-label="Close enlarged poster" data-lightbox-close></button>
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Enlarged poster">
+      <button class="lightbox-close" type="button" aria-label="Close enlarged poster" data-lightbox-close>&times;</button>
+      <img class="lightbox-image" src="" alt="" data-lightbox-image>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const lightbox = document.querySelector("[data-lightbox]");
+      if (!lightbox) return;
+
+      const lightboxImage = lightbox.querySelector("[data-lightbox-image]");
+      const closeButtons = lightbox.querySelectorAll("[data-lightbox-close]");
+      const triggers = document.querySelectorAll("[data-lightbox-trigger]");
+
+      function closeLightbox() {
+        lightbox.hidden = true;
+        document.body.classList.remove("lightbox-open");
+        lightboxImage.src = "";
+        lightboxImage.alt = "";
+      }
+
+      function openLightbox(src, alt) {
+        lightboxImage.src = src;
+        lightboxImage.alt = alt || "";
+        lightbox.hidden = false;
+        document.body.classList.add("lightbox-open");
+      }
+
+      triggers.forEach((trigger) => {
+        trigger.addEventListener("click", () => {
+          openLightbox(trigger.dataset.lightboxSrc, trigger.dataset.lightboxAlt);
+        });
+      });
+
+      closeButtons.forEach((button) => {
+        button.addEventListener("click", closeLightbox);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !lightbox.hidden) {
+          closeLightbox();
+        }
+      });
+    }());
+  </script>
 </body>
 </html>
