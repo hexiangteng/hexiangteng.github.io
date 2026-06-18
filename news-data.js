@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-06-17",
+    html: 'Paper on discriminative sequential prediction for JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://scholar.google.com/citations?user=mSDQkjMAAAAJ&amp;hl=en&amp;oi=sra">Shunsuke Sakai</a>.'
+  },
+  {
     date: "2026-06-15",
     html: 'Paper on weakly supervised video anomaly detection accepted by ACM TOMM. Congrats to <a href="https://roc-ng.github.io/">Peng Wu</a>.'
   },
