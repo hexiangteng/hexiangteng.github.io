@@ -219,6 +219,12 @@ img {
   color: #215b33;
 }
 
+.topic-world-model {
+  background: #edf2ff;
+  border-color: #c9d5f7;
+  color: #344e9a;
+}
+
 .topic-vision-language {
   background: #eef5fd;
   border-color: #c9daf2;
