@@ -1,7 +1,7 @@
 window.siteNews = [
   {
     date: "2026-06-17",
-    html: 'Paper on discriminative sequential prediction for JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://scholar.google.com/citations?user=mSDQkjMAAAAJ&amp;hl=en&amp;oi=sra">Shunsuke Sakai</a>.'
+    html: 'Paper on discriminative sequential prediction for JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://shunsuke.ai/">Shunsuke Sakai</a>.'
   },
   {
     date: "2026-06-15",
@@ -21,7 +21,7 @@ window.siteNews = [
   },
   {
     date: "2026-02-20",
-    html: 'Papers on anomaly detection with diffusion models (<a href="https://arxiv.org/abs/2504.05662">pdf</a> / <a href="https://invad-project.com/">project</a> / <a href="https://github.com/SkyShunsuke/InversionAD">code</a>) and biomedical scientific literature pretraining (<a href="https://arxiv.org/abs/2512.02566">pdf</a>) accepted by CVPR 2026. Congrats to <a href="https://scholar.google.com/citations?user=mSDQkjMAAAAJ&amp;hl=en&amp;oi=sra">Shunsuke Sakai</a> and <a href="https://flaick.github.io/">Kun Yuan</a>.'
+    html: 'Papers on anomaly detection with diffusion models (<a href="https://arxiv.org/abs/2504.05662">pdf</a> / <a href="https://invad-project.com/">project</a> / <a href="https://github.com/SkyShunsuke/InversionAD">code</a>) and biomedical scientific literature pretraining (<a href="https://arxiv.org/abs/2512.02566">pdf</a>) accepted by CVPR 2026. Congrats to <a href="https://shunsuke.ai/">Shunsuke Sakai</a> and <a href="https://flaick.github.io/">Kun Yuan</a>.'
   },
   {
     date: "2026-01-26",
