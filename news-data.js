@@ -1,7 +1,7 @@
 window.siteNews = [
   {
     date: "2026-06-17",
-    html: 'Paper on discriminative sequential prediction for JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://shunsuke.ai/">Shunsuke Sakai</a>.'
+    html: 'Paper on discriminative sequential JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://shunsuke.ai/">Shunsuke Sakai</a>.'
   },
   {
     date: "2026-06-15",
