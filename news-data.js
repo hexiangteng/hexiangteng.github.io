@@ -8,6 +8,10 @@ window.siteNews = [
     html: 'Paper on weakly supervised video anomaly detection accepted by ACM TOMM. Congrats to <a href="https://roc-ng.github.io/">Peng Wu</a>.'
   },
   {
+    date: "2026-06-03",
+    html: 'Organizing the 13th <a href="https://sites.google.com/view/fgvc13/home">FGVC</a> Workshop at CVPR 2026. Our keynote speakers include Jeff Clune, Maria Antoniak, David Rolnick and Morteza Karimzadeh.'
+  },
+  {
     date: "2026-05-15",
     html: 'Honored to receive the Silver Tier Reviewer Distinction in the IJCAI-ECAI 2026 for my service as an SPC member.'
   },
