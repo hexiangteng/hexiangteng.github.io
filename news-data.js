@@ -5,7 +5,7 @@ window.siteNews = [
   },
   {
     date: "2026-06-15",
-    html: 'Paper on weakly supervised video anomaly detection accepted by ACM TOMM. Congrats to <a href="https://roc-ng.github.io/">Peng Wu</a>.'
+    html: 'Paper on weakly supervised video anomaly detection (<a href="https://dl.acm.org/doi/epdf/10.1145/3828722">pdf</a>) accepted by ACM TOMM. Congrats to <a href="https://roc-ng.github.io/">Peng Wu</a>.'
   },
   {
     date: "2026-06-03",
