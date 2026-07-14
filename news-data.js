@@ -1,4 +1,8 @@
-window.siteNews = [
+window.siteNews = [Our ECCV 2026 paper, DSeq-JEPA, will also be presented at the Workshop on World Models.
+  {
+    date: "2026-07-14",
+    html: 'Our ECCV 2026 paper, <a href="https://dseqjepa-project.com/">DSeq-JEPA</a>, will also be presented at the <a href="https://wm-booth.org/">Workshop on World Models</a>.'
+  },
   {
     date: "2026-06-17",
     html: 'Paper on discriminative sequential JEPA (<a href="https://arxiv.org/abs/2511.17354">pdf</a> / <a href="https://dseqjepa-project.com/">project</a> / <a href="https://github.com/SkyShunsuke/DSeq-JEPA">code</a>) accepted by ECCV 2026. Congrats to <a href="https://shunsuke.ai/">Shunsuke Sakai</a>.'
