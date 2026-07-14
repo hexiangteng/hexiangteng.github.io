@@ -21,7 +21,7 @@ window.siteNews = [
   },
   {
     date: "2026-04-13",
-    html: 'Our inaugural ECCV 2026 workshop proposal <a href="https://medfmb.github.io/">Medical Foundation Models and Benchmark</a> has been accepted.'
+    html: 'Our inaugural ECCV 2026 workshop proposal <a href="https://medfmb.github.io/">Medical Foundation Models and Benchmarks</a> has been accepted.'
   },
   {
     date: "2026-03-02",
@@ -105,15 +105,15 @@ window.siteNews = [
   },
   {
     date: "2023-12-09",
-    html: "One papers is accepted by AAAI 2024. Congrats to Yanzhe Chen!"
+    html: "One paper is accepted by AAAI 2024. Congrats to Yanzhe Chen!"
   },
   {
     date: "2023-12-01",
-    html: "One papers is accepted by ICDE 2024. Congrats to Hulingxiao He!"
+    html: "One paper is accepted by ICDE 2024. Congrats to Hulingxiao He!"
   },
   {
     date: "2023-10-16",
-    html: "One papers is accepted by IEEE TMM 2023. Congrats to Hongbo Sun!"
+    html: "One paper is accepted by IEEE TMM 2023. Congrats to Hongbo Sun!"
   },
   {
     date: "2023-07-26",
@@ -169,11 +169,11 @@ window.siteNews = [
   },
   {
     date: "2021-07-04",
-    html: 'Two papers are accepted by ACM MM 2021. Congrats to Zhen Han and <a href="https://roc-ng.github.io/">Peng Wu</a> !'
+    html: 'Two papers are accepted by ACM MM 2021. Congrats to Zhen Han and <a href="https://roc-ng.github.io/">Peng Wu</a>!'
   },
   {
     date: "2021-05-17",
-    html: 'I give a talk "<a href="https://cs.pku.edu.cn/info/1020/3025.htm">Fine-grained Visual Categorization and Retrieval</a>" at Peking Unversity.'
+    html: 'I give a talk "<a href="https://cs.pku.edu.cn/info/1020/3025.htm">Fine-grained Visual Categorization and Retrieval</a>" at Peking University.'
   },
   {
     date: "2021-01-31",
