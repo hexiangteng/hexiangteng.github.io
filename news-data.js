@@ -1,4 +1,4 @@
-window.siteNews = [Our ECCV 2026 paper, DSeq-JEPA, will also be presented at the Workshop on World Models.
+window.siteNews = [
   {
     date: "2026-07-14",
     html: 'Our ECCV 2026 paper, <a href="https://dseqjepa-project.com/">DSeq-JEPA</a>, will also be presented at the <a href="https://wm-booth.org/">Workshop on World Models</a>.'
