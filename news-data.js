@@ -1,7 +1,7 @@
 window.siteNews = [
   {
     date: "2026-07-14",
-    html: 'Our ECCV 2026 paper, <a href="https://dseqjepa-project.com/">DSeq-JEPA</a>, will also be presented at the <a href="https://wm-booth.org/">Workshop on World Models</a>.'
+    html: 'Our ECCV 2026 paper, <a href="https://dseqjepa-project.com/">DSeq-JEPA</a>, will also be presented at the <a href="https://wm-booth.org/">Workshop on World Models - Hosted by Chicago Booth</a>.'
   },
   {
     date: "2026-06-17",
