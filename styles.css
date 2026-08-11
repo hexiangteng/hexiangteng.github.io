@@ -225,6 +225,12 @@ img {
   color: #2d4794;
 }
 
+.topic-ssl {
+  background: #eef7fb;
+  border-color: #c7deea;
+  color: #23607c;
+}
+
 .topic-vision-language {
   background: #eef5fd;
   border-color: #c9daf2;
