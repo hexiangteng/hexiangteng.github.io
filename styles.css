@@ -333,6 +333,20 @@ p {
   font-size: 1.04em;
 }
 
+.academic-market {
+  margin: -14px 0 38px;
+  padding: 14px 18px;
+  border: 1px solid #c9dced;
+  border-left: 4px solid #5A87B8;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.academic-market p {
+  margin: 0;
+  font-size: 1.06rem;
+  line-height: 1.55;
+}
+
 .portrait {
   border: 1px solid var(--line);
   padding: 7px;
