@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-09-10",
+    html: 'The Fine-Grained Visual Categorization (FGVC) Challenge Series team has received the 2026 <a href="https://www.thecvf.com/?page_id=529">PAMI Mark Everingham Prize</a> for its contributions to the computer vision community. I am grateful to have been part of the organizing team since 2022 and to contribute to this long-running community effort. Congratulations to the entire FGVC team!'
+  },
+  {
     date: "2026-09-02",
     html: 'I will present DSeq-JEPA at ECCV 2026: oral at the AICC Workshop on Sep. 9 and poster at the main conference on Sep. 12.'
   },
