@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-09-24",
+    html: 'Paper on coreset-based KV-cache compression for streaming video understanding (<a href="https://arxiv.org/abs/2605.14310">pdf</a> / <a href="https://github.com/ailarmhz/CoRDS">code</a>) accepted by NeurIPS 2026. Congrats to <a href="https://ailarmhz.github.io/">Ailar Mahdizadeh</a>.'
+  },
+  {
     date: "2026-09-10",
     html: 'The Fine-Grained Visual Categorization (FGVC) Challenge Series team has received the 2026 <a href="https://www.thecvf.com/?page_id=529">PAMI Mark Everingham Prize</a> for its contributions to the computer vision community. I am grateful to have been part of the organizing team since 2022 and to contribute to this long-running community effort. Congratulations to the entire FGVC team!'
   },
