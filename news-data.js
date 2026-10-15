@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-10-14",
+    html: 'Paper on test-time adaptation for zero-shot 3D CT vision-language models (<a href="https://arxiv.org/abs/2607.15556">pdf</a> / <a href="https://github.com/ailarmhz/CARVE">code</a>) accepted by WACV 2027. Congrats to <a href="https://ailarmhz.github.io/">Ailar Mahdizadeh</a>.'
+  },
+  {
     date: "2026-09-24",
     html: 'Paper on coreset-based KV-cache compression for streaming video understanding (<a href="https://arxiv.org/abs/2605.14310">pdf</a> / <a href="https://github.com/ailarmhz/CoRDS">code</a>) accepted by NeurIPS 2026. Congrats to <a href="https://ailarmhz.github.io/">Ailar Mahdizadeh</a>.'
   },
