@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-10-27",
+    html: "Very honored to serve as SPC in IJCAI 2027."
+  },
+  {
     date: "2026-10-14",
     html: 'Paper on test-time adaptation for zero-shot 3D CT vision-language models (<a href="https://arxiv.org/abs/2607.15556">pdf</a> / <a href="https://github.com/ailarmhz/CARVE">code</a>) accepted by WACV 2027. Congrats to <a href="https://ailarmhz.github.io/">Ailar Mahdizadeh</a>.'
   },
