@@ -1,5 +1,9 @@
 window.siteNews = [
   {
+    date: "2026-11-11",
+    html: "Very honored to serve as SPC in ECAI 2027."
+  },
+  {
     date: "2026-10-27",
     html: "Very honored to serve as SPC in IJCAI 2027."
   },
